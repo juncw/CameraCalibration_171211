@@ -3,7 +3,7 @@
 int main(void) {
 	bool isNeedUnDistort = false;     // whether to undistort
 	bool isNeedLoad = true;           // from file to load
-	int  selectUndistort = 1;         // select picture to deal
+	int  selectUndistort = 4;         // select picture to deal
 	SigCameraCalibration camCal;
 	camCal.getPicturePath();
 	if (isNeedUnDistort) {
